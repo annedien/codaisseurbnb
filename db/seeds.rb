@@ -20,7 +20,7 @@ tempting_terrace = Theme.create(name: "Tempting Terrace")
 
 miriam = User.create(email: "miriam@codaisseurbnb.com", password: "abcd1234")
 wouter = User.create(email: "wouter@codaisseurbnb.com", password: "abcd1234")
-annedien = User.create(email: "annedien@gmail.com", password: "1234")
+matt = User.create(email: "annedien@gmail.com", password: "1234")
 
 Room.create(home_type: "House", room_type: "Shared", accommodate: 2, bedroom_count: 2, bathroom_count: 3, listing_name: "You will never forget your stay!", description: "Normcore meh put a bird on it man braid mumblecore, locavore synth swag kogi helvetica ugh health goth twee raw denim readymade.", address: "Colon 58, 1B, 11100 Cadiz (Spain)", has_tv: false, has_kitchen: true, has_airco: false, has_heating: false, has_internet: true, price: 100, active: true, user: miriam, themes: [modern_and_minimal, sleek_and_sophisticated])
 
